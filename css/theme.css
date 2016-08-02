@@ -449,6 +449,7 @@ nav hr {
 }
 .nav-sticky .logo-square {
   bottom: 20px !important;
+  display: none;
 }
 .nav-menu {
   padding-top: 40px;
@@ -896,7 +897,7 @@ header.title:before {
   height: 100%;
   top: 0px;
   content: '';
-  opacity: 0.3;
+  opacity: 0;
   z-index: 2;
   background-color: #333333;
 }
@@ -2692,10 +2693,11 @@ footer.social h1 {
   margin-bottom: 24px;
 }
 footer.social a.text-white {
-  font-size: 18px;
+  font-size: 22px;
 }
 footer.social .social-icons {
   margin: 64px 0px;
+  margin-left: 4.5%;
 }
 footer.social .social-icons li {
   margin-right: 40px;
@@ -3900,7 +3902,7 @@ footer.short-2 .contact-action:hover {
 }
 .centered-logo .logo {
   max-width: 800px;
-  max-height: 50px;
+  max-height: 100px;
   bottom: 0px;
   margin-top: 32px;
 }
