@@ -1745,6 +1745,9 @@ img.phone-portrait {
 .team-1-member img {
   display: inline-block;
   margin-bottom: 16px;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
 }
 .team-1-member h5 {
   margin-bottom: 8px;
