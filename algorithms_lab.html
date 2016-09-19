@@ -356,35 +356,48 @@
 				</section>
 			</div>
 
-			<section class="duplicatable-content">
+			<section class="blog-masonry bg-muted">
+			
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<h1>Latest Blog Posts</h1>
+							<ul class="blog-filters">
+								<li data-filter="*" class="active"><span>All</span></li>
+								<li data-filter=".algorithm"><span>Algorithm</span></li>
+								<li data-filter=".activities"><span>Activities</span></li>
+								<li data-filter=".information"><span>Information</span></li>
+							</ul>
 						</div>
 					</div>
-					
+				</div>
+				
+				<div class="container">
 					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<div class="blog-snippet-1">
-								<a href="#">
-									<img alt="Blog Thumb" src="img/algorithmsLab/paper_logo.jpg">
-								</a>
-								<h2>ACM-ICPC Preparation Project</h2>
-								<span class="sub alt-font">Posted on August 24th</span>
-								<p>
-									This GitHub project that one of the ongoing project of our lab aim to guide people in competitive programming.
-								</p>
-								<span class="sub alt-font">Author: Nadide Pasali</span><br>
-								<a href="http://nadide.github.io/ACM-ICPC-Preparation/" class="link-text">Read The Rest</a>
+						<div class="blog-masonry-container">
+
+							<div class="col-md-4 col-sm-6 blog-masonry-item activities">
+								<div class="item-inner">
+									<a href="http://nadide.github.io/ACM-ICPC-Preparation/">
+										<img alt="Blog Preview" src="img/algorithmsLab/paper_logo.jpg">
+									</a>
+									<div class="post-title">
+									<h2>ACM-ICPC Preparation Project</h2>
+									<span class="sub alt-font">Posted on August 24th</span>
+									<p>
+										This GitHub project that one of the ongoing project of our lab aim to guide people in competitive programming.
+									</p>
+									<span class="sub alt-font">Author: Nadide Pasali</span><br>
+									<a href="http://nadide.github.io/ACM-ICPC-Preparation/" class="link-text">Read The Rest</a>
+									</div>
+								</div>
 							</div>
-						</div>
-						
-						<div class="col-md-4 col-sm-6">
-							<div class="blog-snippet-1">
-								<a href="#">
+
+						<div class="col-md-4 col-sm-6 blog-masonry-item algorithm">
+							<div class="item-inner">
+								<a href="https://irasuna.github.io/2016/network-flow/">
 									<img alt="Blog Thumb" src="img/algorithmsLab/maxFlow.png">
 								</a>
+								<div class="post-title">
 								<h2>Max Flow/Min Cut Algorithm</h2>
 								<span class="sub alt-font">Posted on September 9</span>
 								<p>
@@ -392,14 +405,16 @@
 								</p>
 								<span class="sub alt-font">Author: Inamullah Muhammad</span><br>
 								<a href="https://irasuna.github.io/2016/network-flow/" class="link-text">Read The Rest</a>
+								</div>
 							</div>
 						</div>
 						
-						<div class="col-md-4 col-sm-6">
-							<div class="blog-snippet-1">
-								<a href="#">
+						<div class="col-md-4 col-sm-6 blog-masonry-item algorithm">
+							<div class="item-inner">
+								<a href="https://atukenov.github.io/atukenov.github.io//knapsack-algorithm">
 									<img alt="Blog Thumb" src="img/algorithmsLab/knapsack.png">
 								</a>
+								<div class="post-title">
 								<h2>Knapsack Algorithm</h2>
 								<span class="sub alt-font">Posted on September 15th</span>
 								<p>
@@ -407,10 +422,50 @@
 								</p>
 								<span class="sub alt-font">Author: Almaz Tukenov</span><br>
 								<a href="https://atukenov.github.io/atukenov.github.io//knapsack-algorithm" class="link-text">Read The Rest</a>
+								</div>
 							</div>
 						</div>
-					</div>	
+
+						<div class="col-md-4 col-sm-6 blog-masonry-item algorithm">
+							<div class="item-inner">
+								<a href="http://bedirtapkan.me/Kadane's-Algorithm/">
+									<img alt="Blog Thumb" src="img/algorithmsLab/knapsack.png">
+								</a>
+								<div class="post-title">
+								<h2>Kadane's Algorithm</h2>
+								<span class="sub alt-font">Posted on September 18th</span>
+								<p>
+									How to find sum of maximum subarrays? Kadane's algorithm for optimal solution.
+								</p>
+								<span class="sub alt-font">Author: Bedir Tapkan</span><br>
+								<a href="http://bedirtapkan.me/Kadane's-Algorithm/" class="link-text">Read The Rest</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6 blog-masonry-item information">
+							<div class="item-inner">
+								<a href="http://nadide.github.io/Algorithm/">
+									<img alt="Blog Thumb" src="img/algorithmsLab/algo.png">
+								</a>
+								<div class="post-title">
+								<h2>What is Algorithm</h2>
+								<span class="sub alt-font">Posted on May 1st 2015</span>
+								<p>
+									
+								</p>
+								<span class="sub alt-font">Author: Nadide Pasali</span><br>
+								<a href="http://nadide.github.io/Algorithm/" class="link-text">Read The Rest</a>
+								</div>
+							</div>
+						</div>
+
+
+
+						</div>
+					</div>
 				</div>
+			
 			</section>
 
 			<section class="no-pad-bottom projects-gallery">
@@ -419,7 +474,7 @@
 						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 text-center">
 							<h1>Check out some of our<br>latest and greatest projects</h1>
 							<p class="lead">
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta.
+								Here are our projects...
 							</p>
 						</div>
 					</div>
